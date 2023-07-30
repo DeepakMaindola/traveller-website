@@ -1,0 +1,269 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222f3e; 
+    color: #ccc;
+    border: border-box;
+}
+.header1>span,div{
+    display: inline;
+    padding-top: 15px;
+}
+.header1>div{
+    float: right;
+    padding-right: 5px;
+}
+header{
+  background-image: url(logo.jpg);
+  background-size:cover;
+
+}
+.header1ka2>span{
+    padding-left: 20px;
+    padding-right: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header1{
+    height: 45px;
+    color: white;
+    width: 100%;
+    background-color: black;
+    align-content: center;
+    scroll-margin-block-end: 20px;
+}
+.header1>.ph{
+    float: left;
+    padding-left: 15px;
+    padding-right: 799px;
+}
+select:hover{
+    cursor: pointer;
+    border-color: white;
+}
+select{
+    color: white;
+    background-color: black;
+}
+.header2>img{
+    height: 50px;
+    width:300px;
+    padding-left: 15px;
+    padding-right: 160px;
+    float: left;
+}
+
+
+.header2{
+    background-color: #205464;
+    width: 100%;
+    height: 50px;
+    display: inline;
+    content: middle;
+    position: fixed;
+}
+a:hover{
+    background-color: #222f3e; 
+    background-size: contain;
+    cursor: pointer;
+}
+.header2> nav span{
+    padding-right: 30px;
+    font-size: 16px;
+}
+nav{
+    display: inline;
+    align-items: center;
+}
+.rr{
+    float: right;
+    padding: 16px;
+}
+.preshan>a{
+    float: left;
+   padding:15px;
+}
+header{
+    position:fixed;
+}
+.h1{
+    font-family: var(--title_font);
+    font-size: 60px;
+    padding-top: 260px;
+    padding-left: 60px;
+    color: antiquewhite;
+}
+div h1>strong{
+    color: rgb(33, 86, 200);
+    font-size: 60px;
+}
+
+.bg img{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 124vh;
+}
+
+.f7{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 40px;
+    color: antiquewhite;
+    padding-bottom: 330px;
+}
+.bg{
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .h2{
+    font-family: var(--title_font);
+    font-size: 40px;
+    text-align: center;
+    text-decoration:wavy;
+    text-decoration-color: antiquewhite;
+    color: whitesmoke;
+  }
+
+  .h2:hover {
+      text-decoration: none;
+      letter-spacing: 2px;
+
+  }
+  .card {
+    float: left;
+    width: 200px;
+    height: 300px;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: #222f3e;
+  }
+ 
+
+  #indian .card img{
+    height: 250px;
+    width: 170px;
+    padding-bottom: 7px;
+    padding-top: 10px;
+  }
+
+  .card:hover{
+    border: 2.5px solid white;
+    cursor:pointer;
+    font-size: 1rem;
+    color:#205464;
+    font-weight: 795;
+    background: black;
+    letter-spacing: 1px;
+    
+  }
+
+
+  
+
+  #indian img{
+    max-width: 100%;
+    height: auto;
+  }
+#indian{
+    background-color: #222f3e;
+    height: auto;
+    max-width: 100%;
+    background-size:cover;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid #ccc;
+}
+footer{
+    background-color: rgba(21, 21, 21, 0.908);
+    color: white;
+    height: 650px;
+}
+.sec3 img{
+    height:110px;
+    width: 110px;
+    padding: 5px;
+}
+.sec1, .sec2, .sec3, .sec4 {
+    float: left;
+    width: 22%; 
+    padding: 15px;
+  }
+  .clear {
+    clear: both;
+  }
+  .sec1 h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    padding-bottom: 7px;
+  }
+  .sec2 h1{
+    padding-bottom: 7px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+  }
+  .sec3 h1{
+    padding-bottom: 7px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+  }
+  .sec4 h1{
+    padding-bottom: 7px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+  }
+
+  hr{
+    width: 100%;
+    height: .3rem;
+    background-color:white;
+  }
+  
+  .hr{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: .3rem;
+    background-color:white;
+  }
+
+
+  center{
+    padding-top: 20px;
+  }
+  center span{
+    font-size: 30px;
+    color: #222f3e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
+  }
+  .sec4>div h1+a{
+    padding: 7px;
+    margin-top: 10px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
